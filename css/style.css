@@ -214,40 +214,68 @@ h1 {
 .botbox {
     height: 500px;
     padding-top: 30px;
+    border-bottom: 2px solid #404B6D;
 }
 
 .botcolleft {
     height: 450px;
-    border: 3px dashed black;
-    background-color: #F08080;
     flex-grow: 2;
+    line-height: 60px;
 }
 
 .botcol {
     height: 450px;
-    border: 3px dashed white;
-    background-color: #20B2AA;
     flex-grow: 1;
+    line-height: 35px;
+}
+
+li {
+    list-style: none;
+}
+
+li > a {
+    text-decoration: none;
+    color: white;
+}
+
+#lasttitle {
+    font-size: 40px;
+    color: #7289DA;
+}
+
+.category {
+    color: #7289DA;
+}
+
+#bandiera {
+    width: 35px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+#lingua {
+    vertical-align: middle;
+    color: white;
 }
 
 /* Footer style */
 
 footer {
     background-color: #23272A;
-    border-top: 2px solid white;
     height: 100px;
     padding-top: 20px;
 }
 
 .controls {
     height: 80px;
-    background-color: #7FFFD4;
     justify-content: space-between;
     align-items: center;
 }
 
-.buttons {
-    background-color: #FFB6C1;
-    border: 3px dashed black;
-    padding: 10px;
+#registration {
+    background-color: #8EA1E1;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
 }
+
