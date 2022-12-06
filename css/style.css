@@ -84,16 +84,45 @@ nav {
 /* TOP */
 
 .top {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
     height: 500px;
-    background-color: #00008B;
     padding-top: 50px;
 }
 
 .intro {
     height: 400px;
-    background-color: #EE82EE;
     margin: 0 300px;
-    border: 3px dashed black;
+    text-align: center;
+}
+
+h1 { 
+    font-size: 70px;
+    color: white;
+}
+
+#introduction {
+    color: white;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#download {
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+#browser {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+    margin-left: 10px;
+    font-size: 20px;
 }
 
 /* MID */
