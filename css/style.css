@@ -128,41 +128,41 @@ h1 {
 /* MID */
 
 .midbox {
-    /* height: 500px; */
+    height: 500px;
     padding-top: 50px;
 }
 
 .midcolumn-left {
-    /* height: 400px; */
+    height: 400px;
     flex-grow: 2;
     flex-basis: 66%;
 }
 
 .midcolumn-right {
-    /* height: 400px; */
+    height: 400px;
     flex-grow: 1;
     flex-basis: 33%;
 }
 
 .midrevbox {
-    /* height: 500px; */
+    height: 500px; 
     padding-top: 50px;
 }
 
 .midcolumnrev-left {
     flex-grow: 1;
-    /* height: 400px; */
+    height: 400px;
     flex-basis: 33%;
 }
 
 .midcolumnrev-right {
-    /* height: 400px; */
+    height: 400px;
     flex-grow: 2;
     flex-basis: 66%;
 }
 
 .midrev {
-    background-image: url();
+    background-color: #D3D3D3;
 }
 
 .subtitle {
@@ -171,7 +171,7 @@ h1 {
 
 .description {
     font-size: 20px;
-    padding-top: 25px;
+    padding-top: 20px;
 }
 
 /* BIG */
@@ -256,6 +256,12 @@ li > a {
 #lingua {
     vertical-align: middle;
     color: white;
+}
+
+.icon {
+    color: white;
+    font-size: 20px;
+    padding-right: 15px;
 }
 
 /* Footer style */
